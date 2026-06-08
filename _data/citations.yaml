@@ -16,7 +16,7 @@
   date: '2025-09-29'
   link: https://arxiv.org/abs/2509.25020
   buttons:
-  - type: github
+  - type: source
     text: Code
     link: https://github.com/Ljyustc/MarCos
   image: images/publication/Deep Thinking by Markov Chain of Continuous Thoughts.png
@@ -52,10 +52,10 @@
   date: '2026-01-25'
   link: https://arxiv.org/abs/2601.04537
   buttons:
-  - type: github
+  - type: source
     text: Code
     link: https://github.com/Miaow-Lab/RLVR-Linearity
-  - type: huggingface
+  - type: data
     text: Dataset
     link: https://huggingface.co/collections/Miaow-Lab/rlvr-linearity
   image: images/publication/not all steps are informative.png
@@ -74,10 +74,10 @@
   date: '2026-03-03'
   link: https://arxiv.org/abs/2603.03031
   buttons:
-  - type: github
+  - type: source
     text: Code
     link: https://github.com/Miaow-Lab/SSAE
-  - type: huggingface
+  - type: data
     text: Dataset
     link: https://huggingface.co/collections/Miaow-Lab/ssae
   image: images/publication/Step-Level Sparse Autoencoder for Reasoning Process Interpretation.png
@@ -99,10 +99,10 @@
   date: '2026-05-18'
   link: https://arxiv.org/abs/2605.18548
   buttons:
-  - type: github
+  - type: source
     text: Code
     link: https://github.com/Miaow-Lab/STT-Arena
-  - type: huggingface
+  - type: data
     text: Dataset
     link: https://huggingface.co/datasets/Miaow-Lab/STT-Arena
   image: images/publication/STT-Arena.png
@@ -117,7 +117,7 @@
   - Ning Miao
   publisher: arXiv
   date: '2026-05-07'
-  link: https://arxiv.org/abs/2605.18548
+  link: https://arxiv.org/abs/2605.06660
   image: images/publication/Verifier-Backed Hard Problem Generation for Mathematical
     Reasoning.png
   plugin: sources.py
@@ -137,10 +137,10 @@
   date: '2026-06-02'
   link: https://arxiv.org/abs/2606.03318
   buttons:
-  - type: github
+  - type: source
     text: Code
     link: https://github.com/Miaow-Lab/RUT-Bench
-  - type: huggingface
+  - type: data
     text: Dataset
     link: https://huggingface.co/datasets/Miaow-Lab/RUT-Bench
   image: images/publication/RUT-Bench.png
