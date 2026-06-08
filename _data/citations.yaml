@@ -26,8 +26,8 @@
   title: 'Enhancing Large Language Model Reasoning with Reward Models: An Analytical
     Survey'
   authors:
-  - Qiyuan Liu*
-  - Hao Xu*
+  - Qiyuan Liu\*
+  - Hao Xu\*
   - Xuhong Chen
   - Wei Chen
   - Yee Whye Teh
@@ -41,9 +41,9 @@
 - id: arxiv:2601.04537
   title: Linear Dynamics in the RLVR Training of Large Language Models
   authors:
-  - Tianle Wang*
-  - Jiayu Liu*
-  - Zhongyuan Wu*
+  - Tianle Wang\*
+  - Jiayu Liu\*
+  - Zhongyuan Wu\*
   - Shenghao Jin
   - Wei Chen
   - Hao Xu
@@ -64,9 +64,9 @@
 - id: arxiv:2603.03031
   title: Step-Level Sparse Autoencoder for Reasoning Process Interpretation
   authors:
-  - Xuan Yang*
-  - Jiayu Liu*
-  - Yuhang Lai*
+  - Xuan Yang\*
+  - Jiayu Liu\*
+  - Yuhang Lai\*
   - Hao Xu
   - Zhenya Huang
   - Ning Miao
@@ -111,8 +111,8 @@
 - id: arXiv:2605.06660
   title: Verifier-Backed Hard Problem Generation for Mathematical Reasoning
   authors:
-  - Yuhang Lai*
-  - Jiazhan Feng*
+  - Yuhang Lai\*
+  - Jiazhan Feng\*
   - Yee Whye Teh
   - Ning Miao
   publisher: arXiv
