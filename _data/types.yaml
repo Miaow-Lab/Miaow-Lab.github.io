@@ -228,3 +228,10 @@ package:
   icon: fa-solid fa-box
   text: Package
   tooltip: Package
+
+huggingface:
+  icon: fa-brands fa-hugging-face
+  text: HuggingFace
+  tooltip: HuggingFace
+
+

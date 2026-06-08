@@ -1,8 +1,30 @@
+- id: arXiv:2509.25020
+  title: "Deep Thinking by Markov Chain of Continuous Thoughts"
+  authors: 
+    - Jiayu Liu
+    - Zhenya Huang
+    - Xuan Yang
+    - Tianyun Ji
+    - Anya Sims
+    - Hao Xu
+    - Enhong Chen
+    - Yee Whye Teh
+    - Ning Miao
+  date: 2025-09-29
+  publisher: arXiv
+  link: https://arxiv.org/abs/2509.25020
+  buttons:
+    - type: github
+      text: Code
+      link: https://github.com/Ljyustc/MarCos
+  image: images/publication/Deep Thinking by Markov Chain of Continuous Thoughts.png
+
+
 - id: arxiv:2510.01925
   title: "Enhancing Large Language Model Reasoning with Reward Models: An Analytical Survey"
   authors: 
-  - Qiyuan Liu
-  - Hao Xu
+  - Qiyuan Liu*
+  - Hao Xu*
   - Xuhong Chen
   - Wei Chen
   - Yee Whye Teh
@@ -10,23 +32,107 @@
   date: 2025-10-03
   publisher: arXiv
   link: https://arxiv.org/abs/2510.01925
-  image: images/publication/enhancing large language model reasoning.png       
+  image: images/publication/enhancing large language model reasoning.png 
 
 - id: arxiv:2601.04537
-  title: "Not All Steps are Informative: On the Linearity of LLMs' RLVR Training"
+  title: "Linear Dynamics in the RLVR Training of Large Language Models"
   authors: 
-  - Tianle Wang
-  - Zhongyuan Wu
+  - Tianle Wang*
+  - Jiayu Liu*
+  - Zhongyuan Wu*
   - Shenghao Jin
-  - Hao Xu
   - Wei Chen
+  - Hao Xu
   - Ning Miao
   date: 2026-01-25
   publisher: arXiv
   link: https://arxiv.org/abs/2601.04537
   buttons:
-    - type: source
+    - type: github
       text: Code
       link: https://github.com/Miaow-Lab/RLVR-Linearity
+    - type: huggingface
+      text: Dataset
+      link: https://huggingface.co/collections/Miaow-Lab/rlvr-linearity
   image: images/publication/not all steps are informative.png
 
+- id: arxiv:2603.03031
+  title: "Step-Level Sparse Autoencoder for Reasoning Process Interpretation"
+  authors: 
+    - Xuan Yang*
+    - Jiayu Liu*
+    - Yuhang Lai*
+    - Hao Xu
+    - Zhenya Huang
+    - Ning Miao
+  date: 2026-03-03
+  publisher: arXiv
+  link: https://arxiv.org/abs/2603.03031
+  buttons:
+    - type: github
+      text: Code
+      link: https://github.com/Miaow-Lab/SSAE
+    - type: huggingface
+      text: Dataset
+      link: https://huggingface.co/collections/Miaow-Lab/ssae
+  image: images/publication/Step-Level Sparse Autoencoder for Reasoning Process Interpretation.png
+
+
+- id: arXiv:2605.18548
+  title: "STT-Arena: A More Realistic Environment for Tool-Using with Spatio-Temporal Dynamics"
+  authors: 
+    - Tingfeng Hui
+    - Hao Xu
+    - Pengyu Zhu
+    - Hongsheng Xin
+    - Kun Zhan
+    - Sen Su
+    - Chunxiao Liu
+    - Ning Miao
+  date: 2026-05-18
+  publisher: arXiv
+  link: https://arxiv.org/abs/2605.18548
+  buttons:
+    - type: github
+      text: Code
+      link: https://github.com/Miaow-Lab/STT-Arena
+    - type: huggingface
+      text: Dataset
+      link: https://huggingface.co/datasets/Miaow-Lab/STT-Arena
+  image: images/publication/STT-Arena.png
+
+
+- id: arXiv:2605.06660
+  title: "Verifier-Backed Hard Problem Generation for Mathematical Reasoning"
+  authors: 
+    - Yuhang Lai*
+    - Jiazhan Feng*
+    - Yee Whye Teh
+    - Ning Miao
+  date: 2026-05-07
+  publisher: arXiv
+  link: https://arxiv.org/abs/2605.18548
+  image: images/publication/Verifier-Backed Hard Problem Generation for Mathematical Reasoning.png
+
+
+- id: arXiv:2606.03318
+  title: "Beyond Ideal Instruction: A Comprehensive Framework for Evaluating LLMs in Realistic Interactions"
+  authors: 
+    - Xuan Yang
+    - Hao Xu
+    - Tingfeng Hui
+    - Hongsheng Xin
+    - Kaike Zhang
+    - Chunxiao Liu
+    - Ning Miao
+  date: 2026-06-02
+  publisher: arXiv
+  link: https://arxiv.org/abs/2606.03318
+  buttons:
+    - type: github
+      text: Code
+      link: https://github.com/Miaow-Lab/RUT-Bench
+    - type: huggingface
+      text: Dataset
+      link: https://huggingface.co/datasets/Miaow-Lab/RUT-Bench
+  image: images/publication/RUT-Bench.png
