@@ -10,9 +10,16 @@
 {% assign type = site.data.types[member.role] %}
 
 <div class="portrait-wrapper">
+  {% assign member_homepage = member.links["home-page"] %}
   <a
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
+      {% if member_homepage %}
+        href="{{ member_homepage }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      {% else %}
+        href="{{ member.url | relative_url | uri_escape }}"
+      {% endif %}
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
