@@ -32,12 +32,12 @@
   - Wei Chen
   - Yee Whye Teh
   - Ning Miao
-  coauthors:
-  - Qiyuan Liu
-  - Hao Xu
   publisher: arXiv
   date: '2025-10-03'
   link: https://arxiv.org/abs/2510.01925
+  coauthors:
+  - Qiyuan Liu
+  - Hao Xu
   image: images/publication/enhancing large language model reasoning.png
   plugin: sources.py
   file: sources.yaml
@@ -51,13 +51,13 @@
   - Wei Chen
   - Hao Xu
   - Ning Miao
+  publisher: arXiv
+  date: '2026-01-25'
+  link: https://arxiv.org/abs/2601.04537
   coauthors:
   - Tianle Wang
   - Jiayu Liu
   - Zhongyuan Wu
-  publisher: arXiv
-  date: '2026-01-25'
-  link: https://arxiv.org/abs/2601.04537
   buttons:
   - type: source
     text: Code
@@ -77,13 +77,13 @@
   - Hao Xu
   - Zhenya Huang
   - Ning Miao
+  publisher: ICML 2026
+  date: '2026-03-03'
+  link: https://arxiv.org/abs/2603.03031
   coauthors:
   - Xuan Yang
   - Jiayu Liu
   - Yuhang Lai
-  publisher: ICML 2026
-  date: '2026-03-03'
-  link: https://arxiv.org/abs/2603.03031
   buttons:
   - type: source
     text: Code
@@ -126,12 +126,12 @@
   - Jiazhan Feng
   - Yee Whye Teh
   - Ning Miao
-  coauthors:
-  - Yuhang Lai
-  - Jiazhan Feng
   publisher: arXiv
   date: '2026-05-07'
   link: https://arxiv.org/abs/2605.06660
+  coauthors:
+  - Yuhang Lai
+  - Jiazhan Feng
   image: images/publication/Verifier-Backed Hard Problem Generation for Mathematical
     Reasoning.png
   plugin: sources.py
