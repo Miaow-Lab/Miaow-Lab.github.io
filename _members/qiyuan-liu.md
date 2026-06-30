@@ -1,7 +1,7 @@
 ---
 name: Qiyuan Liu
 image: images/team/qiyuanliu.jpg
-role: research-assistant-phd
+role: phd
 links:
   home-page: https://lqy09.github.io/
   email: qiyualiu@cityu.edu.hk

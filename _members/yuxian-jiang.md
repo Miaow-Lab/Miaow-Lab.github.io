@@ -1,7 +1,7 @@
 ---
 name: Yuxian Jiang
 image: images/team/yuxianjiang.jpg
-role: research-assistant-phd
+role: phd
 links:
   home-page: https://scholar.google.com/citations?user=BrM8yHsAAAAJ
   email: linn3a3@gmail.com

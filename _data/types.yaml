@@ -10,9 +10,9 @@ research-assistant:
   icon: fa-solid fa-user
   description: Research Assistant
 
-research-assistant-phd:
+research-assistant-professor:
   icon: fa-solid fa-user-graduate
-  description: Research Assistant (Incoming PhD Student)
+  description: Research Assistant Professor
 
 postdoc:
   icon: fa-solid fa-glasses
@@ -26,9 +26,9 @@ undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
-programmer:
+engineer:
   icon: fa-solid fa-code
-  description: Programmer
+  description: Engineer
 
 mascot:
   icon: fa-solid fa-dog
