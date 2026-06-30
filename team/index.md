@@ -12,9 +12,9 @@ Our lab brings together a talented group of graduate students and research assis
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'research-assistant-professor'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
-{% include list.html data="members" component="portrait" filter="role == 'research-assistant-phd'" %}
-{% include list.html data="members" component="portrait" filter="role == 'research-assistant'" %}
+{% include list.html data="members" component="portrait" filter="role == 'engineer'" %}
 
 
 {% comment %}
