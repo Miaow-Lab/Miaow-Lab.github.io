@@ -22,13 +22,16 @@
 
 - id: arxiv:2510.01925
   title: "Enhancing Large Language Model Reasoning with Reward Models: An Analytical Survey"
-  authors: 
+  authors:
   - Qiyuan Liu
   - Hao Xu
   - Xuhong Chen
   - Wei Chen
   - Yee Whye Teh
   - Ning Miao
+  coauthors:
+  - Qiyuan Liu
+  - Hao Xu
   date: 2025-10-03
   publisher: arXiv
   link: https://arxiv.org/abs/2510.01925
@@ -36,7 +39,7 @@
 
 - id: arxiv:2601.04537
   title: "Linear Dynamics in the RLVR Training of Large Language Models"
-  authors: 
+  authors:
   - Tianle Wang
   - Jiayu Liu
   - Zhongyuan Wu
@@ -44,6 +47,10 @@
   - Wei Chen
   - Hao Xu
   - Ning Miao
+  coauthors:
+  - Tianle Wang
+  - Jiayu Liu
+  - Zhongyuan Wu
   date: 2026-01-25
   publisher: arXiv
   link: https://arxiv.org/abs/2601.04537
@@ -58,15 +65,19 @@
 
 - id: arxiv:2603.03031
   title: "Step-Level Sparse Autoencoder for Reasoning Process Interpretation"
-  authors: 
+  authors:
     - Xuan Yang
     - Jiayu Liu
     - Yuhang Lai
     - Hao Xu
     - Zhenya Huang
     - Ning Miao
+  coauthors:
+    - Xuan Yang
+    - Jiayu Liu
+    - Yuhang Lai
   date: 2026-03-03
-  publisher: arXiv
+  publisher: ICML 2026
   link: https://arxiv.org/abs/2603.03031
   buttons:
     - type: source
@@ -104,11 +115,14 @@
 
 - id: arXiv:2605.06660
   title: "Verifier-Backed Hard Problem Generation for Mathematical Reasoning"
-  authors: 
+  authors:
     - Yuhang Lai
     - Jiazhan Feng
     - Yee Whye Teh
     - Ning Miao
+  coauthors:
+    - Yuhang Lai
+    - Jiazhan Feng
   date: 2026-05-07
   publisher: arXiv
   link: https://arxiv.org/abs/2605.06660
@@ -136,3 +150,22 @@
       text: Dataset
       link: https://huggingface.co/datasets/Miaow-Lab/RUT-Bench
   image: images/publication/RUT-Bench.png
+
+- id: arXiv:2606.09883
+  title: 'TD-Grokking: Learning from Zero-Reward Problems by Training-Time Decomposition'
+  authors:
+  - Ningyuan Xi
+  - Hao Xu
+  - Hongsheng Xin
+  - Ning Miao
+  publisher: arXiv
+  date: '2026-06-03'
+  link: https://arxiv.org/abs/2606.09883
+  buttons:
+  - type: source
+    text: Code
+    link: https://anonymous.4open.science/r/TD-Grokking-6567/
+  - type: data
+    text: Dataset
+    link: https://anonymous.4open.science/r/TD-Grokking-6567/
+  image: images/publication/TD-Grokking.png

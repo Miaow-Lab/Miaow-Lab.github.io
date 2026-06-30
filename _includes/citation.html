@@ -47,23 +47,47 @@
         {% endif %}
         tabindex="0"
       >
-        {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
-          | markdownify
-          | remove: "<p>" | remove: "</p>"
-          | default: "[no author info]"
-        }}
+        {% if citation.coauthors %}
+          {% assign _authors_joined = "" %}
+          {% for _author in citation.authors %}
+            {% assign _is_co = false %}
+            {% for _co in citation.coauthors %}
+              {% if _co == _author %}{% assign _is_co = true %}{% endif %}
+            {% endfor %}
+            {% if _is_co %}{% assign _entry = _author | append: "*" %}{% else %}{% assign _entry = _author %}{% endif %}
+            {% unless forloop.first %}{% assign _authors_joined = _authors_joined | append: "," %}{% endunless %}
+            {% assign _authors_joined = _authors_joined | append: _entry %}
+          {% endfor %}
+          {{
+            _authors_joined
+            | split: ","
+            | array_carve: 5
+            | join: ", "
+            | markdownify
+            | remove: "<p>" | remove: "</p>"
+            | default: "[no author info]"
+          }}
+        {% else %}
+          {{
+            citation.authors
+            | join: ","
+            | split: ","
+            | array_carve: 5
+            | join: ", "
+            | markdownify
+            | remove: "<p>" | remove: "</p>"
+            | default: "[no author info]"
+          }}
+        {% endif %}
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">
-          {{- citation.publisher | default: "[no publisher info]" -}}
-        </span>
-        &nbsp;·&nbsp;
+        {% unless citation.publisher == "arXiv" %}
+          <span class="citation-publisher">
+            {{- citation.publisher | default: "[no publisher info]" -}}
+          </span>
+          &nbsp;·&nbsp;
+        {% endunless %}
         <span class="citation-date">
           {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
         </span>
