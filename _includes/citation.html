@@ -54,7 +54,7 @@
             {% for _co in citation.coauthors %}
               {% if _co == _author %}{% assign _is_co = true %}{% endif %}
             {% endfor %}
-            {% if _is_co %}{% assign _entry = _author | append: "*" %}{% else %}{% assign _entry = _author %}{% endif %}
+            {% if _is_co %}{% assign _entry = _author | append: "&#42;" %}{% else %}{% assign _entry = _author %}{% endif %}
             {% unless forloop.first %}{% assign _authors_joined = _authors_joined | append: "," %}{% endunless %}
             {% assign _authors_joined = _authors_joined | append: _entry %}
           {% endfor %}
