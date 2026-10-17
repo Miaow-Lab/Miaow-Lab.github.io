@@ -180,7 +180,6 @@
   image: images/publication/TD-Grokking.png
   plugin: sources.py
   file: sources.yaml
-
 - id: arXiv:2610.09665
   title: 'SAPD: Step-Aligned Privileged Distillation'
   authors:
