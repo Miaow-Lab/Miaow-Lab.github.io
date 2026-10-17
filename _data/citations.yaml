@@ -126,7 +126,7 @@
   - Jiazhan Feng
   - Yee Whye Teh
   - Ning Miao
-  publisher: arXiv
+  publisher: NeurIPS 2026
   date: '2026-05-07'
   link: https://arxiv.org/abs/2605.06660
   coauthors:
@@ -178,5 +178,23 @@
     text: Dataset
     link: https://anonymous.4open.science/r/TD-Grokking-6567/
   image: images/publication/TD-Grokking.png
+  plugin: sources.py
+  file: sources.yaml
+
+- id: arXiv:2610.09665
+  title: 'SAPD: Step-Aligned Privileged Distillation'
+  authors:
+  - Tianle Wang
+  - Jiayu Liu
+  - Ruizhi Zhao
+  - Ning Miao
+  publisher: arXiv
+  date: '2026-10-07'
+  link: https://arxiv.org/abs/2610.09665
+  buttons:
+  - type: source
+    text: Code
+    link: https://github.com/Miaow-Lab/SAPD
+  image: images/publication/SAPD.svg
   plugin: sources.py
   file: sources.yaml
